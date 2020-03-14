@@ -3,5 +3,6 @@
 
 {% for gallery in gallerys.all %}
     {{ gallery.descripiton}}
-{% endfor %}
+    <img src="{{ gallery.image.url }}">
     
+{% endfor %}
